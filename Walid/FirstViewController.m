@@ -30,6 +30,12 @@
     NSString *soundPath3 = [[NSBundle mainBundle] pathForResource:@"explode" ofType:@"wav"];
     CFURLRef soundURL3 = (__bridge CFURLRef)[NSURL fileURLWithPath:soundPath3];
     AudioServicesCreateSystemSoundID(soundURL3, &sounds[3]);*/
+    output[1]=[Sounds loadAudio:@"spa":@"wav"];
+    output[2]=[Sounds loadAudio:@"planer":@"mp3"];
+    output[3]=[Sounds loadAudio:@"explode":@"wav"];
+    [output[1] prepareToPlay];
+    [output[2] prepareToPlay];
+    [output[3] prepareToPlay];
 }
 
 - (void)viewDidUnload
@@ -66,9 +72,6 @@
 }
 -(IBAction)play:(id)sender
 {
-    output[1]=[Sounds loadAudio:@"spa":@"wav"];
-    output[2]=[Sounds loadAudio:@"planer":@"mp3"];
-    output[3]=[Sounds loadAudio:@"explode":@"wav"];
     //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
     [output[[(UIButton *)sender tag]] play];
 }
