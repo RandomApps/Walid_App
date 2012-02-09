@@ -22,7 +22,11 @@
 		FA780E3914E1315C0069AEB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA780E3814E1315C0069AEB1 /* AppDelegate.m */; };
 		FA780E3C14E1315C0069AEB1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA780E3A14E1315C0069AEB1 /* MainStoryboard.storyboard */; };
 		FA780E3F14E1315C0069AEB1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA780E3E14E1315C0069AEB1 /* FirstViewController.m */; };
+		FA780E4114E1315C0069AEB1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = FA780E4014E1315C0069AEB1 /* first.png */; };
+		FA780E4314E1315C0069AEB1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA780E4214E1315C0069AEB1 /* first@2x.png */; };
 		FA780E4614E1315C0069AEB1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA780E4514E1315C0069AEB1 /* SecondViewController.m */; };
+		FA780E4814E1315C0069AEB1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = FA780E4714E1315C0069AEB1 /* second.png */; };
+		FA780E4A14E1315C0069AEB1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA780E4914E1315C0069AEB1 /* second@2x.png */; };
 		FA780E5214E1315C0069AEB1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA780E5114E1315C0069AEB1 /* SenTestingKit.framework */; };
 		FA780E5314E1315C0069AEB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA780E2814E1315C0069AEB1 /* UIKit.framework */; };
 		FA780E5414E1315C0069AEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA780E2A14E1315C0069AEB1 /* Foundation.framework */; };
@@ -64,8 +68,12 @@
 		FA780E3B14E1315C0069AEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FA780E3D14E1315C0069AEB1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		FA780E3E14E1315C0069AEB1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FA780E4014E1315C0069AEB1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		FA780E4214E1315C0069AEB1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		FA780E4414E1315C0069AEB1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		FA780E4514E1315C0069AEB1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FA780E4714E1315C0069AEB1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		FA780E4914E1315C0069AEB1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		FA780E5014E1315C0069AEB1 /* WalidTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalidTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA780E5114E1315C0069AEB1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		FA780E5914E1315C0069AEB1 /* WalidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WalidTests-Info.plist"; sourceTree = "<group>"; };
@@ -148,12 +156,16 @@
 				FA780E3E14E1315C0069AEB1 /* FirstViewController.m */,
 				FA116A5D14E2FF55003419B4 /* Sounds.h */,
 				FA116A5E14E2FF55003419B4 /* Sounds.m */,
+				FA780E4014E1315C0069AEB1 /* first.png */,
 				FA735A7214E16CA7009530C8 /* Walid.png */,
+				FA780E4214E1315C0069AEB1 /* first@2x.png */,
 				FA780E4414E1315C0069AEB1 /* SecondViewController.h */,
 				FA780E4514E1315C0069AEB1 /* SecondViewController.m */,
+				FA780E4714E1315C0069AEB1 /* second.png */,
 				FA2ACF2414E1893900F691F0 /* spa.wav */,
 				FAECAC6614E3BF49003868EC /* ViewController.h */,
 				FAECAC6714E3BF4A003868EC /* ViewController.m */,
+				FA780E4914E1315C0069AEB1 /* second@2x.png */,
 				FA780E2F14E1315C0069AEB1 /* Supporting Files */,
 			);
 			path = Walid;
@@ -261,6 +273,10 @@
 			files = (
 				FA780E3314E1315C0069AEB1 /* InfoPlist.strings in Resources */,
 				FA780E3C14E1315C0069AEB1 /* MainStoryboard.storyboard in Resources */,
+				FA780E4114E1315C0069AEB1 /* first.png in Resources */,
+				FA780E4314E1315C0069AEB1 /* first@2x.png in Resources */,
+				FA780E4814E1315C0069AEB1 /* second.png in Resources */,
+				FA780E4A14E1315C0069AEB1 /* second@2x.png in Resources */,
 				FA735A7314E16CA7009530C8 /* Walid.png in Resources */,
 				FA2ACF1F14E1867E00F691F0 /* explode.wav in Resources */,
 				FA2ACF2114E1890400F691F0 /* Amalie.png in Resources */,
