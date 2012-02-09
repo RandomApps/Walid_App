@@ -33,9 +33,13 @@
     output[1]=[Sounds loadAudio:@"spa":@"wav"];
     output[2]=[Sounds loadAudio:@"planer":@"mp3"];
     output[3]=[Sounds loadAudio:@"explode":@"wav"];
+    output[4]=[Sounds loadAudio:@"lækker":@"mp3"];
+    output[5]=[Sounds loadAudio:@"Kasser":@"mp3"];
     [output[1] prepareToPlay];
     [output[2] prepareToPlay];
     [output[3] prepareToPlay];
+    [output[4] prepareToPlay];
+    [output[5] prepareToPlay];
 }
 
 - (void)viewDidUnload

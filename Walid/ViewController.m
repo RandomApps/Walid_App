@@ -22,6 +22,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    output[1]=[Sounds loadAudio:@"Crash":@"wav"];
+    [output[1] prepareToPlay];
 }
 
 - (void)viewDidUnload
@@ -56,5 +58,9 @@
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
-
+-(IBAction)play:(id)sender
+{
+    //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
+    [output[[(UIButton *)sender tag]] play];
+}
 @end
