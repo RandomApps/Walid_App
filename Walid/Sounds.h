@@ -14,7 +14,7 @@
 
 @interface Sounds : UIViewController
 {
-    SystemSoundID sounds[10];
+//    SystemSoundID sounds[10];
     AVAudioPlayer* output[10];
 }
 +(AVAudioPlayer*)loadAudio:(NSString*)name:(NSString*)type;
