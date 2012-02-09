@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Sounds.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : Sounds
 
 @end

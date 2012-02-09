@@ -7,7 +7,6 @@
 //
 
 #import "FirstViewController.h"
-#import "Sounds.h"
 
 @implementation FirstViewController
 - (void)didReceiveMemoryWarning
@@ -74,9 +73,9 @@
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
--(IBAction)play:(id)sender
+/*-(IBAction)play:(id)sender
 {
     //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
     [output[[(UIButton *)sender tag]] play];
-}
+}*/
 @end

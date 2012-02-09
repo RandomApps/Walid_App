@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <AudioToolbox/AudioServices.h>
 #import <AVFoundation/AVFoundation.h>
+#import <UIKit/UIKit.h>
 
 
-@interface Sounds : NSObject
+@interface Sounds : UIViewController
 {
     SystemSoundID sounds[10];
-    AVAudioPlayer *myAVsound;
+    AVAudioPlayer* output[10];
 }
 +(AVAudioPlayer*)loadAudio:(NSString*)name:(NSString*)type;
+-(IBAction)play:(id)sender;
 @end

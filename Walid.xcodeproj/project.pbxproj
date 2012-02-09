@@ -35,6 +35,7 @@
 		FA780E5414E1315C0069AEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA780E2A14E1315C0069AEB1 /* Foundation.framework */; };
 		FA780E5C14E1315C0069AEB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA780E5A14E1315C0069AEB1 /* InfoPlist.strings */; };
 		FA780E5F14E1315C0069AEB1 /* WalidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA780E5E14E1315C0069AEB1 /* WalidTests.m */; };
+		FA80D2E314E4216A00160805 /* reminder.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA80D2E214E4216A00160805 /* reminder.wav */; };
 		FAA0777114E3EB44000DC643 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0777014E3EB44000DC643 /* AVFoundation.framework */; };
 		FAECAC6814E3BF4A003868EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAECAC6714E3BF4A003868EC /* ViewController.m */; };
 /* End PBXBuildFile section */
@@ -86,6 +87,7 @@
 		FA780E5B14E1315C0069AEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA780E5D14E1315C0069AEB1 /* WalidTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalidTests.h; sourceTree = "<group>"; };
 		FA780E5E14E1315C0069AEB1 /* WalidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalidTests.m; sourceTree = "<group>"; };
+		FA80D2E214E4216A00160805 /* reminder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reminder.wav; sourceTree = "<group>"; };
 		FAA0777014E3EB44000DC643 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FAECAC6614E3BF49003868EC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FAECAC6714E3BF4A003868EC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		FA780E2E14E1315C0069AEB1 /* Walid */ = {
 			isa = PBXGroup;
 			children = (
+				FA80D2E214E4216A00160805 /* reminder.wav */,
 				FA2BEDF514E41607000BA669 /* Kasser.mp3 */,
 				FA2BEDF614E41608000BA669 /* lækker.mp3 */,
 				FA2BEDF314E41242000BA669 /* Crash.wav */,
@@ -294,6 +297,7 @@
 				FA2BEDF414E41242000BA669 /* Crash.wav in Resources */,
 				FA2BEDF714E41608000BA669 /* Kasser.mp3 in Resources */,
 				FA2BEDF814E41608000BA669 /* lækker.mp3 in Resources */,
+				FA80D2E314E4216A00160805 /* reminder.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
