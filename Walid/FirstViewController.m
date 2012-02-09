@@ -1,0 +1,75 @@
+//
+//  FirstViewController.m
+//  Walid
+//
+//  Created by Emil Mikkelsen on 2/7/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import "FirstViewController.h"
+#import "Sounds.h"
+
+@implementation FirstViewController
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc that aren't in use.
+}
+
+#pragma mark - View lifecycle
+
+- (void)viewDidLoad
+{
+/*    [super viewDidLoad];
+    NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"spa" ofType:@"wav"];
+    CFURLRef soundURL = (__bridge CFURLRef)[NSURL fileURLWithPath:soundPath];
+    AudioServicesCreateSystemSoundID(soundURL, &sounds[1]);
+    NSString *soundPath2 = [[NSBundle mainBundle] pathForResource:@"planer" ofType:@"mp3"];
+    CFURLRef soundURL2 = (__bridge CFURLRef)[NSURL fileURLWithPath:soundPath2];
+    AudioServicesCreateSystemSoundID(soundURL2, &sounds[2]);
+    NSString *soundPath3 = [[NSBundle mainBundle] pathForResource:@"explode" ofType:@"wav"];
+    CFURLRef soundURL3 = (__bridge CFURLRef)[NSURL fileURLWithPath:soundPath3];
+    AudioServicesCreateSystemSoundID(soundURL3, &sounds[3]);*/
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+	[super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+	[super viewDidDisappear:animated];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+-(IBAction)play:(id)sender
+{
+    output[1]=[Sounds loadAudio:@"spa":@"wav"];
+    output[2]=[Sounds loadAudio:@"planer":@"mp3"];
+    output[3]=[Sounds loadAudio:@"explode":@"wav"];
+    //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
+    [output[[(UIButton *)sender tag]] play];
+}
+@end

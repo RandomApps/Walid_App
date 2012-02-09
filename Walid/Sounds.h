@@ -1,0 +1,20 @@
+//
+//  Sounds.h
+//  Walid
+//
+//  Created by Emil Mikkelsen on 2/8/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <AudioToolbox/AudioServices.h>
+#import <AVFoundation/AVFoundation.h>
+
+
+@interface Sounds : NSObject
+{
+    SystemSoundID sounds[10];
+    AVAudioPlayer *myAVsound;
+}
++(AVAudioPlayer*)loadAudio:(NSString*)name:(NSString*)type;
+@end
