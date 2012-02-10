@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA116A5F14E2FF55003419B4 /* Sounds.m in Sources */ = {isa = PBXBuildFile; fileRef = FA116A5E14E2FF55003419B4 /* Sounds.m */; };
+		FA132C2814E51988001A03EF /* kortspa.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA132C2714E51988001A03EF /* kortspa.wav */; };
 		FA2ACF1F14E1867E00F691F0 /* explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA2ACF1E14E1867E00F691F0 /* explode.wav */; };
 		FA2ACF2114E1890400F691F0 /* Amalie.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2ACF2014E1890400F691F0 /* Amalie.png */; };
 		FA2ACF2314E1891B00F691F0 /* planer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA2ACF2214E1891B00F691F0 /* planer.mp3 */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		FA116A5D14E2FF55003419B4 /* Sounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sounds.h; sourceTree = "<group>"; };
 		FA116A5E14E2FF55003419B4 /* Sounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sounds.m; sourceTree = "<group>"; };
+		FA132C2714E51988001A03EF /* kortspa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kortspa.wav; sourceTree = "<group>"; };
 		FA2ACF1E14E1867E00F691F0 /* explode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explode.wav; sourceTree = "<group>"; };
 		FA2ACF2014E1890400F691F0 /* Amalie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amalie.png; sourceTree = "<group>"; };
 		FA2ACF2214E1891B00F691F0 /* planer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = planer.mp3; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				FA2BEDF314E41242000BA669 /* Crash.wav */,
 				FA780E3714E1315C0069AEB1 /* AppDelegate.h */,
 				FA780E3814E1315C0069AEB1 /* AppDelegate.m */,
+				FA132C2714E51988001A03EF /* kortspa.wav */,
 				FA2ACF2214E1891B00F691F0 /* planer.mp3 */,
 				FA2ACF2014E1890400F691F0 /* Amalie.png */,
 				FA2ACF1E14E1867E00F691F0 /* explode.wav */,
@@ -294,6 +297,7 @@
 				FA2BEDF414E41242000BA669 /* Crash.wav in Resources */,
 				FA2BEDF714E41608000BA669 /* Kasser.mp3 in Resources */,
 				FA2BEDF814E41608000BA669 /* lækker.mp3 in Resources */,
+				FA132C2814E51988001A03EF /* kortspa.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

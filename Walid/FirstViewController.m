@@ -35,11 +35,13 @@
     output[3]=[Sounds loadAudio:@"explode":@"wav"];
     output[4]=[Sounds loadAudio:@"lækker":@"mp3"];
     output[5]=[Sounds loadAudio:@"Kasser":@"mp3"];
+    output[6]=[Sounds loadAudio:@"kortspa":@"wav"];
     [output[1] prepareToPlay];
     [output[2] prepareToPlay];
     [output[3] prepareToPlay];
     [output[4] prepareToPlay];
     [output[5] prepareToPlay];
+    [output[6] prepareToPlay];    
 }
 
 - (void)viewDidUnload
@@ -73,10 +75,5 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
--(IBAction)play:(id)sender
-{
-    //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
-    [output[[(UIButton *)sender tag]] play];
 }
 @end

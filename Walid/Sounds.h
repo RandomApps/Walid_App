@@ -11,10 +11,11 @@
 #import <AVFoundation/AVFoundation.h>
 
 
-@interface Sounds : NSObject
+@interface Sounds : UIViewController
 {
-    SystemSoundID sounds[10];
-    AVAudioPlayer *myAVsound;
+    AVAudioPlayer *output[10];
+    //AVAudioPlayer *myAVsound;
 }
 +(AVAudioPlayer*)loadAudio:(NSString*)name:(NSString*)type;
+-(IBAction)play:(id)sender;
 @end

@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Sounds.h"
 
-@interface FirstViewController : UIViewController {
+@interface FirstViewController : Sounds {
 //SystemSoundID sounds[10];
-    AVAudioPlayer *output[10];
 }
--(IBAction)play:(id)sender;
 @end
