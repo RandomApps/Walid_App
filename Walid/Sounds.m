@@ -19,9 +19,5 @@
      sound = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:name ofType:type]  ] error:NULL];
      return sound;
  }
--(IBAction)play:(id)sender
-{
-    //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
-    [output[[(UIButton *)sender tag]] play];
-}
+    
 @end

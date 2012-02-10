@@ -58,4 +58,9 @@
     // Return YES for supported orientations
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+-(IBAction)play:(id)sender
+{
+    //AudioServicesPlaySystemSound(output[[(UIButton *)sender tag]]);
+    [output[[(UIButton *)sender tag]] play];
+}
 @end

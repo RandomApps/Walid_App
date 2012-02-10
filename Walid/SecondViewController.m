@@ -22,8 +22,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    output[1]=[Sounds loadAudio:@"reminder":@"wav"];
-    [output[1] prepareToPlay];
 }
 
 - (void)viewDidUnload

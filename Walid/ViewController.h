@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Sounds.h"
 
-@interface ViewController : Sounds {
+@interface ViewController : UIViewController {
+AVAudioPlayer *output[10];
 }
+-(IBAction)play:(id)sender;
 @end
