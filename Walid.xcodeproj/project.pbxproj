@@ -14,7 +14,8 @@
 		FA2ACF2514E1893900F691F0 /* spa.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA2ACF2414E1893900F691F0 /* spa.wav */; };
 		FA2BEDF414E41242000BA669 /* Crash.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA2BEDF314E41242000BA669 /* Crash.wav */; };
 		FA2BEDF714E41608000BA669 /* Kasser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA2BEDF514E41607000BA669 /* Kasser.mp3 */; };
-		FA2BEDF814E41608000BA669 /* lækker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA2BEDF614E41608000BA669 /* lækker.mp3 */; };
+		FA2BEDF814E41608000BA669 /* hot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA2BEDF614E41608000BA669 /* hot.mp3 */; };
+		FA63FB6C14E4616200B1C148 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = FA63FB6B14E4616200B1C148 /* apple.png */; };
 		FA735A7314E16CA7009530C8 /* Walid.png in Resources */ = {isa = PBXBuildFile; fileRef = FA735A7214E16CA7009530C8 /* Walid.png */; };
 		FA735A7914E16EDD009530C8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA735A7814E16EDD009530C8 /* AudioToolbox.framework */; };
 		FA780E2914E1315C0069AEB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA780E2814E1315C0069AEB1 /* UIKit.framework */; };
@@ -60,7 +61,8 @@
 		FA2ACF2414E1893900F691F0 /* spa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spa.wav; sourceTree = "<group>"; };
 		FA2BEDF314E41242000BA669 /* Crash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Crash.wav; sourceTree = "<group>"; };
 		FA2BEDF514E41607000BA669 /* Kasser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kasser.mp3; sourceTree = "<group>"; };
-		FA2BEDF614E41608000BA669 /* lækker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lækker.mp3"; sourceTree = "<group>"; };
+		FA2BEDF614E41608000BA669 /* hot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hot.mp3; sourceTree = "<group>"; };
+		FA63FB6B14E4616200B1C148 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		FA735A7214E16CA7009530C8 /* Walid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Walid.png; sourceTree = "<group>"; };
 		FA735A7814E16EDD009530C8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FA780E2414E1315C0069AEB1 /* Walid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walid.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,9 +158,10 @@
 		FA780E2E14E1315C0069AEB1 /* Walid */ = {
 			isa = PBXGroup;
 			children = (
+				FA63FB6B14E4616200B1C148 /* apple.png */,
 				FA80D2E214E4216A00160805 /* reminder.wav */,
 				FA2BEDF514E41607000BA669 /* Kasser.mp3 */,
-				FA2BEDF614E41608000BA669 /* lækker.mp3 */,
+				FA2BEDF614E41608000BA669 /* hot.mp3 */,
 				FA2BEDF314E41242000BA669 /* Crash.wav */,
 				FA780E3714E1315C0069AEB1 /* AppDelegate.h */,
 				FA780E3814E1315C0069AEB1 /* AppDelegate.m */,
@@ -299,9 +302,10 @@
 				FA2ACF2514E1893900F691F0 /* spa.wav in Resources */,
 				FA2BEDF414E41242000BA669 /* Crash.wav in Resources */,
 				FA2BEDF714E41608000BA669 /* Kasser.mp3 in Resources */,
-				FA2BEDF814E41608000BA669 /* lækker.mp3 in Resources */,
+				FA2BEDF814E41608000BA669 /* hot.mp3 in Resources */,
 				FA80D2E314E4216A00160805 /* reminder.wav in Resources */,
 				FAD63B9D14E43C1800B3C111 /* spa-kort.mp3 in Resources */,
+				FA63FB6C14E4616200B1C148 /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

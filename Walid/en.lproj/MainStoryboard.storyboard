@@ -137,7 +137,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="U1h-TK-HVL"/>
+                    <tabBarItem key="tabBarItem" title="Apple" image="apple.png" id="U1h-TK-HVL"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="653" y="1152"/>
@@ -196,6 +196,7 @@
     <resources>
         <image name="Amalie.png" width="30" height="30"/>
         <image name="Walid.png" width="30" height="30"/>
+        <image name="apple.png" width="32" height="32"/>
     </resources>
     <classes>
         <class className="FirstViewController" superclassName="Sounds">
