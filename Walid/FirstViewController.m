@@ -41,7 +41,9 @@
     [output[3] prepareToPlay];
     [output[4] prepareToPlay];
     [output[5] prepareToPlay];
-    [output[6] prepareToPlay];    
+    [output[6] prepareToPlay];
+    //UITableView *n;
+    //[n deselectRowAtIndexPath:1 animated:yes]
 }
 
 - (void)viewDidUnload
