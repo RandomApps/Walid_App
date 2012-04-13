@@ -21,6 +21,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    output[1]=[Sounds loadAudio:@"roulette":@"wav"];
+    output[2]=[Sounds loadAudio:@"dræbermyg":@"wav"];
+    //output[6]=[Sounds loadAudio:@"kortspa":@"wav"];
+    [output[1] prepareToPlay];
+    [output[2] prepareToPlay];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -37,6 +37,12 @@
 		FA780E5C14E1315C0069AEB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA780E5A14E1315C0069AEB1 /* InfoPlist.strings */; };
 		FA780E5F14E1315C0069AEB1 /* WalidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA780E5E14E1315C0069AEB1 /* WalidTests.m */; };
 		FAA0777114E3EB44000DC643 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA0777014E3EB44000DC643 /* AVFoundation.framework */; };
+		FAE4754015389DEA0086D4A9 /* dræbermyg.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE4753F15389DEA0086D4A9 /* dræbermyg.wav */; };
+		FAE4754215389EED0086D4A9 /* roulette.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAE4754115389EED0086D4A9 /* roulette.wav */; };
+		FAE4754415389FDD0086D4A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE4754315389FDD0086D4A9 /* Default@2x.png */; };
+		FAE475461538A00A0086D4A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE475451538A00A0086D4A9 /* Default.png */; };
+		FAE475481538A07F0086D4A9 /* IconWalid.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE475471538A07F0086D4A9 /* IconWalid.png */; };
+		FAE4754A1538A0970086D4A9 /* IconWalidRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE475491538A0970086D4A9 /* IconWalidRetina.png */; };
 		FAECAC6814E3BF4A003868EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAECAC6714E3BF4A003868EC /* ViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +95,12 @@
 		FA780E5D14E1315C0069AEB1 /* WalidTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalidTests.h; sourceTree = "<group>"; };
 		FA780E5E14E1315C0069AEB1 /* WalidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalidTests.m; sourceTree = "<group>"; };
 		FAA0777014E3EB44000DC643 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FAE4753F15389DEA0086D4A9 /* dræbermyg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "dræbermyg.wav"; sourceTree = "<group>"; };
+		FAE4754115389EED0086D4A9 /* roulette.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = roulette.wav; sourceTree = "<group>"; };
+		FAE4754315389FDD0086D4A9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAE475451538A00A0086D4A9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAE475471538A07F0086D4A9 /* IconWalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconWalid.png; sourceTree = "<group>"; };
+		FAE475491538A0970086D4A9 /* IconWalidRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconWalidRetina.png; sourceTree = "<group>"; };
 		FAECAC6614E3BF49003868EC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FAECAC6714E3BF4A003868EC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +134,10 @@
 		FA780E1914E1315C0069AEB1 = {
 			isa = PBXGroup;
 			children = (
+				FAE475491538A0970086D4A9 /* IconWalidRetina.png */,
+				FAE475471538A07F0086D4A9 /* IconWalid.png */,
+				FAE475451538A00A0086D4A9 /* Default.png */,
+				FAE4754315389FDD0086D4A9 /* Default@2x.png */,
 				FAA0777014E3EB44000DC643 /* AVFoundation.framework */,
 				FA735A7814E16EDD009530C8 /* AudioToolbox.framework */,
 				FA780E2E14E1315C0069AEB1 /* Walid */,
@@ -155,12 +171,14 @@
 			isa = PBXGroup;
 			children = (
 				FA2BEDF514E41607000BA669 /* Kasser.mp3 */,
+				FAE4753F15389DEA0086D4A9 /* dræbermyg.wav */,
 				FA2BEDF614E41608000BA669 /* lækker.mp3 */,
 				FA2BEDF314E41242000BA669 /* Crash.wav */,
 				FA780E3714E1315C0069AEB1 /* AppDelegate.h */,
 				FA780E3814E1315C0069AEB1 /* AppDelegate.m */,
 				FA132C2714E51988001A03EF /* kortspa.wav */,
 				FA2ACF2214E1891B00F691F0 /* planer.mp3 */,
+				FAE4754115389EED0086D4A9 /* roulette.wav */,
 				FA2ACF2014E1890400F691F0 /* Amalie.png */,
 				FA2ACF1E14E1867E00F691F0 /* explode.wav */,
 				FA780E3A14E1315C0069AEB1 /* MainStoryboard.storyboard */,
@@ -298,6 +316,12 @@
 				FA2BEDF714E41608000BA669 /* Kasser.mp3 in Resources */,
 				FA2BEDF814E41608000BA669 /* lækker.mp3 in Resources */,
 				FA132C2814E51988001A03EF /* kortspa.wav in Resources */,
+				FAE4754015389DEA0086D4A9 /* dræbermyg.wav in Resources */,
+				FAE4754215389EED0086D4A9 /* roulette.wav in Resources */,
+				FAE4754415389FDD0086D4A9 /* Default@2x.png in Resources */,
+				FAE475461538A00A0086D4A9 /* Default.png in Resources */,
+				FAE475481538A07F0086D4A9 /* IconWalid.png in Resources */,
+				FAE4754A1538A0970086D4A9 /* IconWalidRetina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
